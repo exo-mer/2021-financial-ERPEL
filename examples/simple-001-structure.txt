@@ -1,0 +1,14 @@
+################################################################################
+# Name        : erpel/examples/simple-001-structure.txt                        #
+# Author      : M.E.Rosner                                                     #
+# E-Mail      : marty[at]rosner[dot]io                                         #
+# Version     : 0.0.01                                                         #
+# Copyright   : Copyright (C) 2020, 2021 M.E.Rosner; Berlin; Germany           #
+# Description : An Enterprise Ressource Planning Notation and Tool Kit         #
+# URL         : https://github.com/exo-mer/2021-financial-ERPEL                #
+################################################################################
+
+(Eingangsrechnung)
+  ( (s) (200) (Rohstoffe) (2000.00) )
+  ( (s) (260) (Vorsteuer) (280.00) )
+  ( (h) (440) (Verbindlk) (2280.00) )

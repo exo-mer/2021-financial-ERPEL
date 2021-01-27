@@ -1,0 +1,32 @@
+################################################################################
+# Name        : erpel/examples/simple-002-structure.txt                        #
+# Author      : M.E.Rosner                                                     #
+# E-Mail      : marty[at]rosner[dot]io                                         #
+# Version     : 0.0.01                                                         #
+# Copyright   : Copyright (C) 2020, 2021 M.E.Rosner; Berlin; Germany           #
+# Description : An Enterprise Ressource Planning Notation and Tool Kit         #
+# URL         : https://github.com/exo-mer/2021-financial-ERPEL                #
+################################################################################
+
+# 20201230T173907Z initial draft
+
+# Use '#' to declare comments
+
+# TO BE PARSED..
+
+   ( a )
+   ( a )  ( b )
+   (  ()  () )
+  c( a() b() )
+( c( a() b() ) )
+   ( a() b() )
+   ( a() b() d() f() )
+#   ( a(1) b(2) d() f(2.2) )
+   { a{1} b[2] d{} f(2.2) } 
+     c [ a() b() ]
+
+# INSERT INTO pflanzen VALUES (1,'Dreihörniges Labkraut','Galium Tricornutum', 'n.B.','Bl. grünlich weiss, kürzer gestielt, Stiele so lang oder kürzer als die..', 'grün weisslich', 'n.B.', 'nährstoffreich; kalkhaltig; Lehm- und Tonböden', 'n.B.', 2, 3);
+(1) (Dreihoerniges Labkraut) (Galium Tricornutum) (n B) (Bl gruenlich weiss kuerzer gestielt Stiele so lang oder kuerzer als die) (gruen weisslich) (n B) (naehrstoffreich kalkhaltig Lehm und Tonboeden) (n B) (2 3)
+
+# INSERT INTO pflanzen VALUES (2,'Große Brunelle','Prunella Grandiflora', 'Halbrosettenpflanze','locker behaart, Blüte 20 - 25 mm; mit bewimperten Kiel', 'violett', 'Frühjahr', 'kalkhaltig lockerer Lehm- und Ton- und Lößboden', 'Wald und Wegränder', 4, 1);
+(2) (Grosse Brunelle) (Prunella Grandiflora) (Halbrosettenpflanze) (locker behaart Bluete 20 25 mm mit bewimperten Kiel) (violett) (Fruehjahr) (kalkhaltig lockerer Lehm und Ton und Loessboden) (Wald und Wegraender) (4) (1)

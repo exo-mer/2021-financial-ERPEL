@@ -1,0 +1,47 @@
+################################################################################
+# Name        : erpel/examples/more-complex-structure.txt                      #
+# Author      : M.E.Rosner                                                     #
+# E-Mail      : marty[at]rosner[dot]io                                         #
+# Version     : 0.0.01                                                         #
+# Copyright   : Copyright (C) 2020, 2021 M.E.Rosner; Berlin; Germany           #
+# Description : An Enterprise Ressource Planning Notation and Tool Kit         #
+# URL         : https://github.com/exo-mer/2021-financial-ERPEL                #
+################################################################################
+
+# 20201230T173907Z initial draft
+#
+
+# Use '#' to declare comments
+
+# TO BE PARSED..
+
+/Eingangsrechnung
+ // /s\ /200\ /Rohstoffe\ /2000.00\ \
+  / /s\ /260\ /Vorsteuer\ / 280.00\ \\
+  / /h\ /440\ /Verbindlk\ /2280.00\ \ \
+
+(Eingangsrechnung
+ (( (s) (200) (Rohstoffe) (2000.00) )
+  ( (s) (260) (Vorsteuer) ( 280.00) ))
+  ( (h) (440) (Verbindlk) (2280.00) ) )
+
+<Eingangsrechnung
+ << <s> <200> <Rohstoffe> <2000.00> >
+  < <s> <260> <Vorsteuer> < 280.00> >>
+  < <h> <440> <Verbindlk> <2280.00> > >
+
+[Eingangsrechnung
+ [[ [s] [200] [Rohstoffe] [2000.00] ]
+  [ [s] [260] [Vorsteuer] [ 280.00] ]]
+  [ [h] [440] [Verbindlk] [2280.00] ] ]
+
+{Eingangsrechnung
+ {{ {s} {200} {Rohstoffe} {2000.00} }
+  { {s} {260} {Vorsteuer} { 280.00} }}
+  { {h} {440} {Verbindlk} {2280.00} } }
+
+# p. 212
+#(e((Anlagevermoegen), Maschinen))
+#(e((Anlagevermoegen), (Anschaffungs-, Herstellungskosten der Vorjahre)))
+#(e((Zugaenge), (Abgaenge)))
+#(e((In Vorjahren),(Im Abschlussjahr)))

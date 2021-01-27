@@ -1,0 +1,10 @@
+DOT
+*.*-COMMENTS
+*example-*
+src/lex.yy.*
+src/y.tab.*
+src/*.o
+src/y.output
+src/test-erpel
+src/test-erpel.core
+build/*
