@@ -1,4 +1,4 @@
-# ERPEL
+# 2021-financial-ERPEL
 #### An Enterprise Ressource Planning Notation and Tool Kit
 #### Version     : 0.0.01
 
