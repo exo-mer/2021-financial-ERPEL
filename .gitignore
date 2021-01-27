@@ -7,4 +7,4 @@ src/*.o
 src/y.output
 src/test-erpel
 src/test-erpel.core
-TEST
+build/test-erpel
