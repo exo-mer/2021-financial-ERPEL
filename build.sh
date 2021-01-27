@@ -14,6 +14,7 @@
 cd src/
 make clean
 make
+[ ! -d build ] && mkdir build
 mv test-erpel ../build/
 make clean
 cd ../
