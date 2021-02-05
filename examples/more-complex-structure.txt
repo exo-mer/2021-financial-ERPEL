@@ -15,22 +15,38 @@
 
 # TO BE PARSED..
 
+((s))
+( Eingangsrechnung ((s) (200)) )
+( Eingangsrechnung ((s) (200)) (s) (200) )
+( Eingangsrechnung ((s) (200)) ((s)) (200) )
+
+( Eingangsrechnung ((s) (200) (Rohstoffe) (2000.00)) )
+
+( Eingangsrechnung ((s) (200) (Rohstoffe) (2000.00)) ) # ((s) (200) (Rohstoffe) (2000.00)) )
+
+
+#  ((s) (260) (Vorsteuer) ( 280.00)) )
+
+
+#   ((s) (200) (Rohstoffe) (2000.00))  ((s) (260) (Vorsteuer) ( 280.00)) )
+
+
 /Eingangsrechnung
- // /s\ /200\ /Rohstoffe\ /2000.00\ \
+ / / /s\ /200\ /Rohstoffe\ /2000.00\ \
   / /s\ /260\ /Vorsteuer\ / 280.00\ \\
   / /h\ /440\ /Verbindlk\ /2280.00\ \ \
 
-(Eingangsrechnung
+( Eingangsrechnung
  (( (s) (200) (Rohstoffe) (2000.00) )
   ( (s) (260) (Vorsteuer) ( 280.00) ))
   ( (h) (440) (Verbindlk) (2280.00) ) )
 
-<Eingangsrechnung
+< Eingangsrechnung
  << <s> <200> <Rohstoffe> <2000.00> >
   < <s> <260> <Vorsteuer> < 280.00> >>
   < <h> <440> <Verbindlk> <2280.00> > >
 
-[Eingangsrechnung
+[ Eingangsrechnung
  [[ [s] [200] [Rohstoffe] [2000.00] ]
   [ [s] [260] [Vorsteuer] [ 280.00] ]]
   [ [h] [440] [Verbindlk] [2280.00] ] ]

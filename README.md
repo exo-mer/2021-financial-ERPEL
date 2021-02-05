@@ -1,10 +1,9 @@
 # 2021-financial-ERPEL
-#### An Enterprise Ressource Planning Notation and Tool Kit
-#### Version     : 0.0.01
+## An Enterprise Ressource Planning Notation and Tool Kit
+Version     : 0.0.01
+[rosner][exo-mer], 2021-01-27T15:17:59Z
 
-######[exo-mer], 2021-01-27T15:17:59Z
-
-This Software Package is intended to provide:
+This Software Package provides:
 
 + a lexer
 + a parser
@@ -13,8 +12,7 @@ This Software Package is intended to provide:
 + with future goal to enable requests, printing
 + and manipulation on given structures,
 + but also preservation of those.
-
-2020-12-30T17:48:01Z
++ two minimal structure examples
 
 ## get the code via git
 
@@ -27,11 +25,11 @@ To get an overview about the requirements simple run the following commands.
 ```
 user $ which yacc
 ```
-Make sure [Yacc & Lex](http://dinosaur.compilertools.net/) are installed.
+Make sure [Lex & YACC](http://dinosaur.compilertools.net/) are installed.
 ```
 user $ which lex
 ```
-In addition a C-compiler is needed - check by running which.
+A C-compiler is needed to build from source - check by running which.
 ```
 user $ which cc
 ```
@@ -42,10 +40,11 @@ The Software itselft was written on a BSD System but should work fine on other *
 user $ cd 2021-financial-ERPEL/ && chmod +x build.sh && ./build.sh
 ```
 
-## check it out and enjoy!
+
+## enjoy!
 
 + [2021-financial-ERPEL](https://github.com/exo-mer/2021-financial-ERPEL)
 + Copyright   : (C) 2020, 2021 M.E.Rosner; Berlin; Germany
 + E-Mail      : marty[at]rosner[dot]io
 + License     : [BSD](https://github.com/exo-mer/2021-financial-ERPEL/blob/main/LICENSE)
-
++ Timestamp   : 2021-02-05T11:23:33Z
