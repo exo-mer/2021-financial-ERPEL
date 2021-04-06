@@ -8,3 +8,4 @@ src/y.output
 src/test-erpel
 src/test-erpel.core
 build/test-erpel
+examples/*
