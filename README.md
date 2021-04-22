@@ -40,6 +40,10 @@ The Software itselft was written on a BSD System but should work fine on other *
 user $ cd 2021-financial-ERPEL/ && chmod +x build.sh && ./build.sh
 ```
 
+## contribute
+Developers are welcome, Feel free to contribute!
+Creating tickets and pull requests is highly appreciated.
+
 
 ## enjoy!
 
@@ -47,4 +51,4 @@ user $ cd 2021-financial-ERPEL/ && chmod +x build.sh && ./build.sh
 + Copyright   : (C) 2020, 2021 M.E.Rosner; Berlin; Germany
 + E-Mail      : marty[at]rosner[dot]io
 + License     : [BSD](https://github.com/exo-mer/2021-financial-ERPEL/blob/main/LICENSE)
-+ Timestamp   : 2021-02-05T11:23:33Z
++ Timestamp   : 2021-04-22T19:34:22Z
